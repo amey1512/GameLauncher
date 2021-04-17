@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Player {
 	int number;
 	String name;
-	
+	Scanner sc;
 	void getName() {
 		System.out.print("Enter Name - ");
 	}
@@ -12,7 +12,7 @@ public class Player {
 	}
 	void guessNumber() {
 		System.out.print("Enter the number mate :: ");
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		number = sc.nextInt();
 	}
 }
