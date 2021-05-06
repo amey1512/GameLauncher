@@ -21,13 +21,13 @@ class secondClass extends firstClass {
 public class OverRidingLearn {
 	
 	public static void main(String args[]) {
-//		firstClass f = new firstClass();
+		firstClass f = new firstClass();
 		secondClass s = new secondClass();
 		
 //		f.printing();
-		s.printing(6);
+//		s.printing(6);
 		
-//		firstClass.printing();
-//		secondClass.printing();
+		firstClass.printing();
+		secondClass.printing();
 	}
 }

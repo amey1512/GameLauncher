@@ -12,8 +12,8 @@ class Dog extends Animal {
 	
 	static void method(Animal a) {
 		if( a instanceof Dog) {
-			Dog d = (Dog) a;
-			System.out.println("Instance downcasted - "+ d.xval);
+			Dog de = (Dog) a;
+			System.out.println("Instance downcasted - ");
 		}
 	}
 	
@@ -23,7 +23,7 @@ public class DownCast {
 	public static void main(String args[]) {
 //		Dog d = new Animal();  //Compile time error
 		
-//		Dog d = (Dog)new Animal();  // Throws classcast exception
+		Dog d = (Dog)new Animal();  // Throws classcast exception
 		
 		Animal a = new Dog();	
 		Dog.method(a);
