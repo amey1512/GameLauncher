@@ -86,7 +86,7 @@ public class SingletonDP {
 		System.out.println(instance);
 		
 		ThreadMethodInitialisation instance1 = ThreadMethodInitialisation.getInstance();
-		System.out.println(instance1); ***/
+		System.out.println(instance1); ***/ 
 		
 		// ThreadBlockMethodInitialisation calling.
 		ThreadBlockMethodInitialisation instance = ThreadBlockMethodInitialisation.getInstance();
